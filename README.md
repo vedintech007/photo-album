@@ -1,6 +1,6 @@
-# Contact Storage App
+# Photo Storage App
 
-This project is an inspiration from google contacts
+This project is an inspiration from google photos
 
 ## Getting Started
 

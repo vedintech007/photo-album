@@ -17,7 +17,16 @@ class CategoryForm(ModelForm):
 		fields = '__all__'
 
 
-class PhotoForm(ModelForm ):
+class PhotoForm(ModelForm):
+
+	description = forms.CharField(
+		required=False,
+		widget=forms.TextInput(
+			attrs={
+				'class': 'form-control',
+			}
+		)
+	)
 
 	class Meta:
 		model = Photo

@@ -9,17 +9,25 @@ These instructions will get you a copy of the project up and running on your loc
 **Prerequisites**
 
 ```
-Check requirements.txt for packages to install
+Check requirements.txt for packages to install or follow along!
 ```
 
 **Installations for mac and linux users**
 
 ```
-First clone the repository from Github and switch to the project directory
+First clone the repository from Github
 ```
 
-* git clone git@github.com/USERNAME/{{ project_name }}.git
-* cd {{ project_name }}
+* git clone https://github.com/Victorspy-web/photo-album.git
+
+
+## Please Now Do This
+
+**Create this file in the project base where settings.py can be found**
+
+`SECRET_KEY.py `
+
+* Inside the `SECRET_KEY.py`, create a variable name called SECRET_KEY and store your secret key in it. https://djecrety.ir can help you generate one.
 
 
 ```
@@ -39,6 +47,7 @@ Install Django, activate and migrate project
 * pipenv install django==3.2 . `Dont forget the space and dot at the end!`
 * pipenv shell
 * pip install Pillow
+* pip install django-cleanup
 * python manage.py makemigrations
 * python manage.py migrate
 

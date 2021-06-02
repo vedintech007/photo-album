@@ -1,5 +1,7 @@
 # Photo Storage App
 
+<img src="static/readme_images/preview.png">
+
 This project is an inspiration from google photos
 
 ## Getting Started
